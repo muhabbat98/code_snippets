@@ -1,5 +1,7 @@
-let secondVar = 'Valid value';
+let firstVar = 'Valid value'
+console.log(firstVar) 
+
+//SyntaxError on line 5
+let secondVar = 'Invalid value  
 
 console.log(secondVar)
-
-console.log(firstVar) // Reference Error this variable is not declared
